@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8B358E293A8A5A003B53CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B358D293A8A5A003B53CE /* AppDelegate.swift */; };
+		3F8B3590293A8A5A003B53CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B358F293A8A5A003B53CE /* SceneDelegate.swift */; };
+		3F8B3592293A8A5A003B53CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B3591293A8A5A003B53CE /* ViewController.swift */; };
+		3F8B3595293A8A5A003B53CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B3593293A8A5A003B53CE /* Main.storyboard */; };
+		3F8B3598293A8A5A003B53CE /* Time_Visualizer_V2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B3596293A8A5A003B53CE /* Time_Visualizer_V2_0.xcdatamodeld */; };
+		3F8B359A293A8A5B003B53CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B3599293A8A5B003B53CE /* Assets.xcassets */; };
+		3F8B359D293A8A5B003B53CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B359B293A8A5B003B53CE /* LaunchScreen.storyboard */; };
+		3F8B35A8293A8A5B003B53CE /* Time_Visualizer_V2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35A7293A8A5B003B53CE /* Time_Visualizer_V2_0Tests.swift */; };
+		3F8B35B2293A8A5B003B53CE /* Time_Visualizer_V2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35B1293A8A5B003B53CE /* Time_Visualizer_V2_0UITests.swift */; };
+		3F8B35B4293A8A5B003B53CE /* Time_Visualizer_V2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35B3293A8A5B003B53CE /* Time_Visualizer_V2_0UITestsLaunchTests.swift */; };
+		3F8B35C1293AA6A7003B53CE /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35C0293AA6A7003B53CE /* ItemTableViewCell.swift */; };
+		3FCA2941293B78CA00040D5D /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA2940293B78CA00040D5D /* ChartsViewController.swift */; };
+		3FCA2944293BA10B00040D5D /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 3FCA2943293BA10B00040D5D /* Charts */; };
+		3FCA2946293BA45C00040D5D /* ItemsTableViewCell_DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA2945293BA45C00040D5D /* ItemsTableViewCell_DataView.swift */; };
+		3FCA2948293BBFAE00040D5D /* AddNewKeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA2947293BBFAE00040D5D /* AddNewKeywordViewController.swift */; };
+		3FCA294A293BC6C900040D5D /* KeywordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA2949293BC6C900040D5D /* KeywordsViewController.swift */; };
+		3FCA294C293BC76A00040D5D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA294B293BC76A00040D5D /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8B35A4293A8A5B003B53CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B3582293A8A5A003B53CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8B3589293A8A5A003B53CE;
+			remoteInfo = "Time Visualizer V2.0";
+		};
+		3F8B35AE293A8A5B003B53CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B3582293A8A5A003B53CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8B3589293A8A5A003B53CE;
+			remoteInfo = "Time Visualizer V2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8B358A293A8A5A003B53CE /* Time Visualizer V2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Visualizer V2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8B358D293A8A5A003B53CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F8B358F293A8A5A003B53CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F8B3591293A8A5A003B53CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F8B3594293A8A5A003B53CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8B3597293A8A5A003B53CE /* Time_Visualizer_V2_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Time_Visualizer_V2_0.xcdatamodel; sourceTree = "<group>"; };
+		3F8B3599293A8A5B003B53CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8B359C293A8A5B003B53CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8B359E293A8A5B003B53CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8B35A3293A8A5B003B53CE /* Time Visualizer V2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time Visualizer V2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8B35A7293A8A5B003B53CE /* Time_Visualizer_V2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Visualizer_V2_0Tests.swift; sourceTree = "<group>"; };
+		3F8B35AD293A8A5B003B53CE /* Time Visualizer V2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time Visualizer V2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8B35B1293A8A5B003B53CE /* Time_Visualizer_V2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Visualizer_V2_0UITests.swift; sourceTree = "<group>"; };
+		3F8B35B3293A8A5B003B53CE /* Time_Visualizer_V2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Visualizer_V2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F8B35C0293AA6A7003B53CE /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		3FCA2940293B78CA00040D5D /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		3FCA2945293BA45C00040D5D /* ItemsTableViewCell_DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell_DataView.swift; sourceTree = "<group>"; };
+		3FCA2947293BBFAE00040D5D /* AddNewKeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewKeywordViewController.swift; sourceTree = "<group>"; };
+		3FCA2949293BC6C900040D5D /* KeywordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordsViewController.swift; sourceTree = "<group>"; };
+		3FCA294B293BC76A00040D5D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8B3587293A8A5A003B53CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA2944293BA10B00040D5D /* Charts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B35A0293A8A5B003B53CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B35AA293A8A5B003B53CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8B3581293A8A5A003B53CE = {
+			isa = PBXGroup;
+			children = (
+				3F8B358C293A8A5A003B53CE /* Time Visualizer V2.0 */,
+				3F8B35A6293A8A5B003B53CE /* Time Visualizer V2.0Tests */,
+				3F8B35B0293A8A5B003B53CE /* Time Visualizer V2.0UITests */,
+				3F8B358B293A8A5A003B53CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8B358B293A8A5A003B53CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B358A293A8A5A003B53CE /* Time Visualizer V2.0.app */,
+				3F8B35A3293A8A5B003B53CE /* Time Visualizer V2.0Tests.xctest */,
+				3F8B35AD293A8A5B003B53CE /* Time Visualizer V2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8B358C293A8A5A003B53CE /* Time Visualizer V2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B358D293A8A5A003B53CE /* AppDelegate.swift */,
+				3F8B358F293A8A5A003B53CE /* SceneDelegate.swift */,
+				3F8B3591293A8A5A003B53CE /* ViewController.swift */,
+				3FCA2940293B78CA00040D5D /* ChartsViewController.swift */,
+				3FCA2947293BBFAE00040D5D /* AddNewKeywordViewController.swift */,
+				3FCA2949293BC6C900040D5D /* KeywordsViewController.swift */,
+				3F8B35C0293AA6A7003B53CE /* ItemTableViewCell.swift */,
+				3FCA294B293BC76A00040D5D /* CollectionViewCell.swift */,
+				3F8B3593293A8A5A003B53CE /* Main.storyboard */,
+				3FCA2945293BA45C00040D5D /* ItemsTableViewCell_DataView.swift */,
+				3F8B3599293A8A5B003B53CE /* Assets.xcassets */,
+				3F8B359B293A8A5B003B53CE /* LaunchScreen.storyboard */,
+				3F8B359E293A8A5B003B53CE /* Info.plist */,
+				3F8B3596293A8A5A003B53CE /* Time_Visualizer_V2_0.xcdatamodeld */,
+			);
+			path = "Time Visualizer V2.0";
+			sourceTree = "<group>";
+		};
+		3F8B35A6293A8A5B003B53CE /* Time Visualizer V2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B35A7293A8A5B003B53CE /* Time_Visualizer_V2_0Tests.swift */,
+			);
+			path = "Time Visualizer V2.0Tests";
+			sourceTree = "<group>";
+		};
+		3F8B35B0293A8A5B003B53CE /* Time Visualizer V2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B35B1293A8A5B003B53CE /* Time_Visualizer_V2_0UITests.swift */,
+				3F8B35B3293A8A5B003B53CE /* Time_Visualizer_V2_0UITestsLaunchTests.swift */,
+			);
+			path = "Time Visualizer V2.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8B3589293A8A5A003B53CE /* Time Visualizer V2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8B35B7293A8A5B003B53CE /* Build configuration list for PBXNativeTarget "Time Visualizer V2.0" */;
+			buildPhases = (
+				3F8B3586293A8A5A003B53CE /* Sources */,
+				3F8B3587293A8A5A003B53CE /* Frameworks */,
+				3F8B3588293A8A5A003B53CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Visualizer V2.0";
+			packageProductDependencies = (
+				3FCA2943293BA10B00040D5D /* Charts */,
+			);
+			productName = "Time Visualizer V2.0";
+			productReference = 3F8B358A293A8A5A003B53CE /* Time Visualizer V2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8B35A2293A8A5B003B53CE /* Time Visualizer V2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8B35BA293A8A5B003B53CE /* Build configuration list for PBXNativeTarget "Time Visualizer V2.0Tests" */;
+			buildPhases = (
+				3F8B359F293A8A5B003B53CE /* Sources */,
+				3F8B35A0293A8A5B003B53CE /* Frameworks */,
+				3F8B35A1293A8A5B003B53CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8B35A5293A8A5B003B53CE /* PBXTargetDependency */,
+			);
+			name = "Time Visualizer V2.0Tests";
+			productName = "Time Visualizer V2.0Tests";
+			productReference = 3F8B35A3293A8A5B003B53CE /* Time Visualizer V2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8B35AC293A8A5B003B53CE /* Time Visualizer V2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8B35BD293A8A5B003B53CE /* Build configuration list for PBXNativeTarget "Time Visualizer V2.0UITests" */;
+			buildPhases = (
+				3F8B35A9293A8A5B003B53CE /* Sources */,
+				3F8B35AA293A8A5B003B53CE /* Frameworks */,
+				3F8B35AB293A8A5B003B53CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8B35AF293A8A5B003B53CE /* PBXTargetDependency */,
+			);
+			name = "Time Visualizer V2.0UITests";
+			productName = "Time Visualizer V2.0UITests";
+			productReference = 3F8B35AD293A8A5B003B53CE /* Time Visualizer V2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8B3582293A8A5A003B53CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3F8B3589293A8A5A003B53CE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3F8B35A2293A8A5B003B53CE = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3F8B3589293A8A5A003B53CE;
+					};
+					3F8B35AC293A8A5B003B53CE = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3F8B3589293A8A5A003B53CE;
+					};
+				};
+			};
+			buildConfigurationList = 3F8B3585293A8A5A003B53CE /* Build configuration list for PBXProject "Time Visualizer V2.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8B3581293A8A5A003B53CE;
+			packageReferences = (
+				3FCA2942293BA10B00040D5D /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = 3F8B358B293A8A5A003B53CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8B3589293A8A5A003B53CE /* Time Visualizer V2.0 */,
+				3F8B35A2293A8A5B003B53CE /* Time Visualizer V2.0Tests */,
+				3F8B35AC293A8A5B003B53CE /* Time Visualizer V2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8B3588293A8A5A003B53CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B359D293A8A5B003B53CE /* LaunchScreen.storyboard in Resources */,
+				3F8B359A293A8A5B003B53CE /* Assets.xcassets in Resources */,
+				3F8B3595293A8A5A003B53CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B35A1293A8A5B003B53CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B35AB293A8A5B003B53CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8B3586293A8A5A003B53CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA294C293BC76A00040D5D /* CollectionViewCell.swift in Sources */,
+				3F8B3592293A8A5A003B53CE /* ViewController.swift in Sources */,
+				3FCA2948293BBFAE00040D5D /* AddNewKeywordViewController.swift in Sources */,
+				3FCA2946293BA45C00040D5D /* ItemsTableViewCell_DataView.swift in Sources */,
+				3FCA294A293BC6C900040D5D /* KeywordsViewController.swift in Sources */,
+				3F8B3598293A8A5A003B53CE /* Time_Visualizer_V2_0.xcdatamodeld in Sources */,
+				3F8B35C1293AA6A7003B53CE /* ItemTableViewCell.swift in Sources */,
+				3F8B358E293A8A5A003B53CE /* AppDelegate.swift in Sources */,
+				3FCA2941293B78CA00040D5D /* ChartsViewController.swift in Sources */,
+				3F8B3590293A8A5A003B53CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B359F293A8A5B003B53CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B35A8293A8A5B003B53CE /* Time_Visualizer_V2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B35A9293A8A5B003B53CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B35B4293A8A5B003B53CE /* Time_Visualizer_V2_0UITestsLaunchTests.swift in Sources */,
+				3F8B35B2293A8A5B003B53CE /* Time_Visualizer_V2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8B35A5293A8A5B003B53CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8B3589293A8A5A003B53CE /* Time Visualizer V2.0 */;
+			targetProxy = 3F8B35A4293A8A5B003B53CE /* PBXContainerItemProxy */;
+		};
+		3F8B35AF293A8A5B003B53CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8B3589293A8A5A003B53CE /* Time Visualizer V2.0 */;
+			targetProxy = 3F8B35AE293A8A5B003B53CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8B3593293A8A5A003B53CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8B3594293A8A5A003B53CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8B359B293A8A5B003B53CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8B359C293A8A5B003B53CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8B35B5293A8A5B003B53CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F8B35B6293A8A5B003B53CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8B35B8293A8A5B003B53CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Time Visualizer V2.0/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Time-Visualizer-V2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8B35B9293A8A5B003B53CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Time Visualizer V2.0/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Time-Visualizer-V2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F8B35BB293A8A5B003B53CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Time-Visualizer-V2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Visualizer V2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Time Visualizer V2.0";
+			};
+			name = Debug;
+		};
+		3F8B35BC293A8A5B003B53CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Time-Visualizer-V2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Visualizer V2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Time Visualizer V2.0";
+			};
+			name = Release;
+		};
+		3F8B35BE293A8A5B003B53CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Time-Visualizer-V2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Time Visualizer V2.0";
+			};
+			name = Debug;
+		};
+		3F8B35BF293A8A5B003B53CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aamer-Essa.Time-Visualizer-V2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Time Visualizer V2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8B3585293A8A5A003B53CE /* Build configuration list for PBXProject "Time Visualizer V2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B35B5293A8A5B003B53CE /* Debug */,
+				3F8B35B6293A8A5B003B53CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8B35B7293A8A5B003B53CE /* Build configuration list for PBXNativeTarget "Time Visualizer V2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B35B8293A8A5B003B53CE /* Debug */,
+				3F8B35B9293A8A5B003B53CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8B35BA293A8A5B003B53CE /* Build configuration list for PBXNativeTarget "Time Visualizer V2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B35BB293A8A5B003B53CE /* Debug */,
+				3F8B35BC293A8A5B003B53CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8B35BD293A8A5B003B53CE /* Build configuration list for PBXNativeTarget "Time Visualizer V2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B35BE293A8A5B003B53CE /* Debug */,
+				3F8B35BF293A8A5B003B53CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FCA2942293BA10B00040D5D /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FCA2943293BA10B00040D5D /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FCA2942293BA10B00040D5D /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3F8B3596293A8A5A003B53CE /* Time_Visualizer_V2_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F8B3597293A8A5A003B53CE /* Time_Visualizer_V2_0.xcdatamodel */,
+			);
+			currentVersion = 3F8B3597293A8A5A003B53CE /* Time_Visualizer_V2_0.xcdatamodel */;
+			path = Time_Visualizer_V2_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F8B3582293A8A5A003B53CE /* Project object */;
+}
